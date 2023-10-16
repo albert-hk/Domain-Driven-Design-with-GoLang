@@ -11,6 +11,7 @@ import (
 	"coffeeco/internal/store"
 )
 
+// 用户的忠诚计划, 10减1的功能等
 type CoffeeBux struct {
 	ID                                    uuid.UUID
 	store                                 store.Store
